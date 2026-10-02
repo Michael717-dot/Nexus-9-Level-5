@@ -1,0 +1,22 @@
+name: nexus9_nivel5
+description: NEXUS-9 - Nivel 5 El Nucleo (HU-001 Acceso al Nivel 5)
+publish_to: none
+version: 0.1.0
+
+environment:
+  sdk: ">=3.3.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flame: ^1.18.0
+  shared_preferences: ^2.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/luna_spritesheet.png
